@@ -1,0 +1,16 @@
+if (Input.GetKeyDown(KeyCode.UpArrow))
+		{
+			float y = 30f;
+			foreach (ParentUnitMenu parentUnitMenu in this.UnitUiList)
+			{
+				parentUnitMenu.GetComponent<RectTransform>().anchoredPosition += new Vector2(0f, y);
+			}
+		}
+		if (Input.GetKeyDown(KeyCode.DownArrow))
+		{
+			float y2 = 30f;
+			foreach (ParentUnitMenu parentUnitMenu2 in this.UnitUiList)
+			{
+				parentUnitMenu2.GetComponent<RectTransform>().anchoredPosition -= new Vector2(0f, y2);
+			}
+		}
