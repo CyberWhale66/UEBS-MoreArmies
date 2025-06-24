@@ -17,3 +17,7 @@ The current version supports up to **120 armies** by default.
 
 
 Enjoy the chaos. And someone make some awesome videos. I can't wait!
+
+
+BTW working on getting more teams.
+For some battle royal mode
